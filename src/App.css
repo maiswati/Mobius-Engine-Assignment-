@@ -1,4 +1,8 @@
-@import "tailwindcss";
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+
+
 
 :root {
   --primary-blue: #0649E7;
