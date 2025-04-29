@@ -2,8 +2,8 @@ import React from "react";
 import check from '../assets/correct.png'
 const PriceFlier = () => {
   return (
-    <div className="w-[1296px] h-[324px] bg-[#0649E7] rounded-[35px] mt-5 mx-auto p-4">
-      <div className="flex items-center justify-between">
+    <div className="sm:w-[1296px] w-[400px] sm:h-[324px] bg-[#0649E7] rounded-[35px] mt-5 mx-auto p-4">
+      <div className="flex items-center justify-between sm:flex-row flex-col">
         <div>
           <p className="text-white">Advance</p>
           <p className="p2 text-white">
@@ -17,10 +17,10 @@ const PriceFlier = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between sm:flex-row flex-col gap-2">
 
       <div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 ">
           <div  className="flex items-start gap-3">
             <img src={check} alt="check" />
             <p className="p2 text-white">Everything in Plus</p>

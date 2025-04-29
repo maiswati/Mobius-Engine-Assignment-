@@ -12,7 +12,6 @@
 h1 {
   font-family: 'Sora', sans-serif;
   font-weight: 600; /* SemiBold */
-  font-size: 80px;
 }
 
 h2 {
@@ -46,11 +45,15 @@ p {
 .header {
   background-image: url('../src/assets/Gradient.png');
   max-height: 100.5vh;
+  height: auto;      /* grow naturally until the max is hit */
+  overflow: auto; 
 }
 
 .about {
   background-image: url('../src/assets/Gradient2.png');
-  max-height: 100.08vh;
+  max-height: 100.08vh; /* limit maximum height */
+  height: auto;      /* grow naturally until the max is hit */
+  overflow: auto;    
 }
 
 a{

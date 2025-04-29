@@ -8,8 +8,8 @@ const ContactInfo = () => {
         <img src={icon} alt="icon" />
         <hr />
       </div>
-      <div className='flex items-center justify-between'>
-        <div className='flex items-center justify-between gap-5'>
+      <div className='flex items-center justify-between lg:flex-row flex-col gap-2'>
+        <div className='flex items-center justify-between gap-5 lg:flex-row flex-col'>
             <div>
                 <p className='p2 text-[#0649E7] underline'>Address</p>
                 <p className='p2 text-[#0649E7]'>1875 Mission St Ste 103 #450 <br />

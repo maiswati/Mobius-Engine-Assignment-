@@ -7,7 +7,7 @@ const PricingSection = () => {
   return (
     <div className='p-5 mt-5'>
       <p className='text-[#0649E7]'>Job Application Service Plans</p>
-      <div className='flex justify-between items-center mt-5 pt-5'>
+      <div className='flex justify-between items-center mt-5 pt-5 lg:flex-row flex-col gap-3'>
         {
           plans.map((plan)=> {
             return (
