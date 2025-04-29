@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+:root {
+  --primary-blue: #0649E7;
+  --dark-blue: #022183;
+  --white: #FFFFFF;
+  --light-blue: #EBF1FF;
+  --black: #101010;
+}
+
+
+h1 {
+  font-family: 'Sora', sans-serif;
+  font-weight: 600; /* SemiBold */
+  font-size: 80px;
+}
+
+h2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500; /* Medium */
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600; /* SemiBold */
+}
+
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600; /* SemiBold */
+}
+
+p {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700; /* Regular */
+  font-size: 30px;
+}
+
+.p2 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400; /* Regular */
+  font-size: 18px;
+}
+
+.header {
+  background-image: url('../src/assets/Gradient.png');
+  max-height: 100.5vh;
+}
+
+.about {
+  background-image: url('../src/assets/Gradient2.png');
+  max-height: 100.08vh;
+}
+
+a{
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .bg-lg-transparent {
+    background-color: transparent !important;
+  }
+}
