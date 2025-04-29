@@ -1,10 +1,11 @@
 import React from "react";
 import '../App.css'
+import logo from '../assets/fulllogo.png'
 const Header = () => {
   return (
     <header className="p-4 px-5 flex justify-between items-center h-[80px] pt-5">
         <div className="flex items-center">
-            <img src="../../src/assets/fulllogo.png" alt="full logo" width='250px' className="align-middle"/>
+            <img src={logo} alt="full logo" width='250px' className="align-middle"/>
         </div>
         <ul className="text-white flex space-x-6 items-center mt-4">
             <li>
